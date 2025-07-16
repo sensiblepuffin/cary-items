@@ -1,0 +1,6 @@
+Frontend for an interview project.
+
+Instructions:
+$ nvm use 
+$ npm i
+$ npm run start

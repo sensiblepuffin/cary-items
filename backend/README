@@ -1,0 +1,17 @@
+Backend for an interview project.
+
+Requirements:
+> Postgres running 
+> 'postgres' user's password set in .env
+> Postgres port set in .env
+> A Postgres database called cary_items, which postgres has access to
+> Port 3777 available (can change that in .env)
+
+Instructions:
+$ psql -d cary_items -a -f quickstart.sql
+$ npm i
+$ npm run start
+
+Use 
+$ psql -d cary_items -a -f clean.sql
+to refresh the database.
